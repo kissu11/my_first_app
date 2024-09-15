@@ -22,7 +22,7 @@ dotenv.config();
  })
  
  app.get('/p',(req,res)=>{
-    res.send("parshottam chutiya he")
+    res.json({value:"parshottam chutiya he"})
  })
  app.listen(process.env.PORT||1000,()=>{
     console.log("server started");
