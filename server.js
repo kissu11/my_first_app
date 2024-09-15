@@ -14,7 +14,10 @@ dotenv.config();
  app.get('/login',(req,res)=>{
     res.send("login please to access our servics");
  })
-
+ 
+ app.get('/p',(req,res)=>{
+    res.send("parshottam chutiya he")
+ })
  app.listen(process.env.PORT||1000,()=>{
     console.log("server started");
  }); 
